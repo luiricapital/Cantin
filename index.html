@@ -101,7 +101,7 @@
         <img src="LogoPNG.png" alt="Cantin Bar & Kitchen" style="height: 4rem; width: auto; position: absolute; top: 50%; left: 50%; transform: translate(-55%, -50%);" class="md:h-20" />
       </div>
     </a>
-    <ul class="flex items-center gap-6 text-sm font-medium uppercase absolute left-1/2 -translate-x-1/2" style="letter-spacing: 0.08em;">
+    <ul class="hidden md:flex items-center gap-6 text-sm font-medium uppercase absolute left-1/2 -translate-x-1/2" style="letter-spacing: 0.08em;">
       <li><a href="#inicio" class="nav-link">Inicio</a></li>
       <li><a href="#menu" class="nav-link">Menú</a></li>
       <li><a href="#ubicacion" class="nav-link">Ubicación</a></li>
@@ -123,7 +123,7 @@
         <h1 class="font-display text-white leading-none mb-6" style="font-size: clamp(2.2rem, 8vw, 6rem); letter-spacing: -0.03em; text-shadow: 0 4px 24px rgba(0,0,0,0.4);">
           Donde el sabor<br />encuentra el estilo
         </h1>
-        <p class="text-white/75 text-lg mb-10 max-w-lg mx-auto" style="line-height: 1.7;">
+        <p class="text-white/75 mb-10 max-w-lg mx-auto" style="line-height: 1.7; font-size: clamp(0.85rem, 2.5vw, 1.125rem);">
           Cocina de autor, cócteles artesanales y el mejor ambiente de la ciudad. Una experiencia que vas a querer repetir.
         </p>
         <div class="flex flex-wrap gap-4 justify-center">
@@ -154,8 +154,8 @@
         <h2 class="font-display text-espresso" style="font-size: clamp(2rem, 5vw, 3.5rem); letter-spacing: -0.03em; line-height: 1.1;">Nuestros Favoritos</h2>
       </div>
 
-      <!-- 6 dish cards — 3×2 grid -->
-      <div class="grid grid-cols-3 gap-4 mb-14">
+      <!-- 6 dish cards — 2×3 mobile / 3×2 desktop -->
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-14">
 
         <!-- Card 1 — Aglio e Olio & Camarón -->
         <div class="plato-card rounded-xl overflow-hidden"
